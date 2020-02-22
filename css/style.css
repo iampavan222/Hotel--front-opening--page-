@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    background-image:url(../hotel.jpg);
+    height: 100vh;
+    background-size:cover ;
+    background-position: center;
+
+}
+.container{
+    border :5px red solid;
+    border-width:5px;
+    border-bottom-width:10px;
+    border-top-style:dotted;
+    border-bottom-style:dotted;
+    border:5px red solid;
+    padding: 20px red solid;
+    margin: 5px,10px,15px,20px red solid;
+
+
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top:20px ;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: o.6s ease;
+}
+ul li a:hover{
+    background-color: #ffffff;
+    columns: #000000;;
+
+}
+ul li a.active a{
+    background-color: #ffffff;
+    color: #000000;
+}
+.trident img{
+    float: left;
+    height: 1.em;
+    width: 250px;
+    margin-top: 20px;
+}
+.title{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,50%);
+}
+.title h1{
+    font-size: 60px;
+    color: red;
+    text-align: center;
+
+}
+.Button{
+    position: absolute;
+    top: 100%;
+    left:100%;
+    transform: translate(-100%,100%);
+    
+}
